@@ -1,0 +1,31 @@
+/* Skill Section */
+.skill-set {
+  /* background-color: var(--accent-color); */
+}
+
+.skill-set h1 {
+  text-align: center;
+}
+
+.skill-set__wrapper {
+  gap: 1.4rem;
+}
+
+.skills-card {
+  flex: 1;
+  background-color: var(--accent-color);
+  padding: 2rem;
+  color: #fff;
+  border: 1px solid var(--main-color);
+  box-shadow: 10px 10px 27px -13px rgba(0, 0, 0, 0.75);
+}
+
+.skills-card h2 {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.skills-card__footer {
+  border-top: 1px solid var(--light-color);
+  padding: 1rem 0;
+}

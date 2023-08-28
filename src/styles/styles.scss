@@ -1,4 +1,6 @@
-@import '_partials/reset';
+@import "_partials/reset";
+@import "_partials/hero-section";
+@import "_partials/skills-section";
 
 :root {
   --main-color: #2b4141;
@@ -7,119 +9,10 @@
   --pumpkin: #fe7f2d;
 }
 
-
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: red;
 }
 
 .wrapper {
   padding: 9.6rem 0;
-}
-
-.hero-container {
-  background: linear-gradient(to top, var(--accent-color), var(--main-color));
-}
-
-.wrapper,
-.hero {
-  width: 1200px;
-  margin: 0 auto;
-  display: flex;
-}
-/* 
-@media (max-width: 430px) {
-    .hero {
-      flex-direction: column;
-      width: 100%;
-      padding: 2%;
-    }
-
-    .hero__text .hero__bold {
-      line-height: 1.2;
-      font-weight: 600;
-      font-size: 2rem;
-      text-transform: capitalize;
-    }
-} */
-
-.hero__text {
-  color: #ffff;
-  display: flex;
-  flex-direction: column;
-}
-
-.hero__text h1 {
-  font-weight: 200;
-  text-transform: uppercase;
-}
-
-.hero__text .hero__bold {
-  line-height: 1.2;
-  font-weight: 600;
-  font-size: 3rem;
-  text-transform: capitalize;
-}
-
-.hero__cta-container {
-  padding: 2rem 0;
-}
-
-.hero__text .hero__light {
-  font-weight: 300;
-  font-size: 1.4rem;
-}
-
-.hero__bold,
-.hero__light {
-  margin: 1rem 0;
-}
-
-.hero__cta-button {
-  cursor: pointer;
-  font-size: 1rem;
-  color: #000;
-  font-weight: 600;
-  text-decoration: none;
-  background-color: var(--light-color);
-  padding: 1em 1.9em;
-}
-
-.hero__img-container,
-.hero__text {
-  flex: 1;
-}
-
-/* End Hero section */
-
-/* Skill Section */
-.skill-set {
-  /* background-color: var(--accent-color); */
-}
-
-.skill-set h1 {
-  text-align: center;
-}
-
-.skill-set__wrapper {
-  gap: 1.4rem;
-}
-
-.skills-card {
-  flex: 1;
-  background-color: var(--accent-color);
-  padding: 2rem;
-  color: #fff;
-  border: 1px solid var(--main-color);
-  box-shadow: 10px 10px 27px -13px rgba(0,0,0,0.75);
-}
-
-.skills-card h2 {
-  text-align: center;
-  font-size: 1.4rem;
-}
-
-.skills-card__footer {
-  border-top: 1px solid var(--light-color);
-  padding: 1rem 0;
 }
