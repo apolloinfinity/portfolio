@@ -1,6 +1,4 @@
 @import "_partials/reset";
-@import "_partials/hero-section";
-@import "_partials/skills-section";
 
 :root {
   --main-color: #2b4141;
@@ -14,5 +12,5 @@ body {
 }
 
 .wrapper {
-  padding: 9.6rem 0;
+  padding: 9.6rem 2rem;
 }
